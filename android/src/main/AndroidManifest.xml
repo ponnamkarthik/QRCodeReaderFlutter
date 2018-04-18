@@ -1,0 +1,16 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+  package="io.github.ponnamkarthik.qrcodereader">
+
+    <uses-sdk
+            android:minSdkVersion="16"
+            android:targetSdkVersion="21"/>
+
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <application>
+        <activity
+                android:theme="@android:style/Theme.NoTitleBar"
+                android:name=".QRScanActivity"
+                android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"/>
+    </application>
+
+</manifest>

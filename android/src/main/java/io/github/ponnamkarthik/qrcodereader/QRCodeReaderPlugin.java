@@ -20,7 +20,7 @@ import io.flutter.plugin.common.PluginRegistry;
 import io.flutter.plugin.common.PluginRegistry.ActivityResultListener;
 
 public class QRCodeReaderPlugin implements MethodCallHandler, ActivityResultListener, PluginRegistry.RequestPermissionsResultListener {
-  private static final String CHANNEL = "qrcode_reader";
+  private static final String CHANNEL = "qrcodereader";
 
   private static final int REQUEST_CODE_SCAN_ACTIVITY = 2777;
   private static final int REQUEST_CODE_CAMERA_PERMISSION = 3777;

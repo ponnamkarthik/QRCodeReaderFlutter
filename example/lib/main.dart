@@ -1,7 +1,7 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:qrcode_reader/qrcode_reader.dart';
+import 'package:qr_reader/qr_reader.dart';
 
 void main() {
   runApp(new MyApp());
@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return new MaterialApp(
-      title: 'QRCode Reader Demo',
+      title: 'QR Reader',
       home: new MyHomePage(),
     );
   }
@@ -36,7 +36,7 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return new Scaffold(
       appBar: new AppBar(
-        title: const Text('QRCode Reader Example'),
+        title: const Text('QR Reader'),
       ),
       body: new Center(
           child: new FutureBuilder<String>(

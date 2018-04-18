@@ -1,8 +1,8 @@
-name: qrcode_reader
+name: qr_reader
 description: Flutter Plugin for QRCode Reader
 version: 0.1.0
 author: Karthik Ponnam <ponnamkarthik3@gmail.com>
-homepage: https://github.com/PonnamKarthik/FlutterToast
+homepage: https://github.com/PonnamKarthik/QRCodeReaderFlutter
 
 dependencies:
   flutter:
@@ -12,6 +12,7 @@ dependencies:
 # following page: https://www.dartlang.org/tools/pub/pubspec
 
 # The following section is specific to Flutter.
+
 flutter:
   plugin:
     androidPackage: io.github.ponnamkarthik.qrcodereader

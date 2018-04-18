@@ -13,7 +13,7 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
 
-  qrcode_reader:
+  qr_reader:
     path: ../
 
 # For information on the generic Dart part of this file, see the

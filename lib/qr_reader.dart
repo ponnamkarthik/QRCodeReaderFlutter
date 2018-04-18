@@ -3,7 +3,7 @@ import 'package:flutter/services.dart';
 
 
 class QRCodeReader {
-  static const MethodChannel _channel = const MethodChannel('qrcode_reader');
+  static const MethodChannel _channel = const MethodChannel('qrcodereader');
 
   int _autoFocusIntervalInMs = 5000;
   bool _forceAutoFocus = false;

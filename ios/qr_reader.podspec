@@ -2,9 +2,9 @@
 # To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
 #
 Pod::Spec.new do |s|
-  s.name             = 'qrcodereader'
+  s.name             = 'qr_reader'
   s.version          = '0.0.1'
-  s.summary          = 'Flutter Plugin for QRCode Reader'
+  s.summary          = 'Flutter Plugin for QR Reader'
   s.description      = <<-DESC
 Flutter Plugin for QRCode Reader
                        DESC
@@ -18,4 +18,3 @@ Flutter Plugin for QRCode Reader
   
   s.ios.deployment_target = '8.0'
 end
-

@@ -33,6 +33,6 @@ android {
     }
 }
 dependencies {
-    compile 'com.dlazaro66.qrcodereaderview:qrcodereaderview:2.0.3'
+    implementation 'com.dlazaro66.qrcodereaderview:qrcodereaderview:2.0.3'
 //    provided files('tmpLibs/flutter.jar')
 }

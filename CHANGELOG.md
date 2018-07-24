@@ -1,3 +1,7 @@
+## 0.1.3
+
+* Bug fixes
+
 ## 0.1.2
 
 * [qrcode_reader](https://pub.dartlang.org/packages/qrcode_reader) Bug Fixes (Pull requests merged)
